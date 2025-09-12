@@ -1,24 +1,54 @@
-
 <!doctype html>
 <html lang="fi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Viikko 1 – Taulukko</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Viikko 1 – Taulukko</title>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header>
-    <h1><!-- TODO: Taulukko-sivun H1 --></h1>
-    <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
-    </nav>
-  </header>
-  <main>
-    <!-- TODO: Lisää datataulukko, jossa on caption + thead/tbody -->
-  </main>
-  <footer>
-    <!-- TODO: Footer -->
-  </footer>
+  <header>
+    <h1>Taulukko-sivu</h1>
+    <nav aria-label="Päävalikko">
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="table.html">Pelit</a></li>
+        <li><a href="form.html">Lomake</a></li>
+        <li><a href="image.html">Kuva</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <table>
+      <caption>Pelit</caption>
+      <thead>
+        <tr>
+          <th>Nimi</th>
+          <th>Julkaisupäivä</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CS2</td>
+          <td>2023</td>
+          <td>7.5</td>
+        </tr>
+        <tr>
+          <td>Baldurs Gate 3</td>
+          <td>2024</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Thw Witcher 3</td>
+          <td>2015</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <p>12.9.2025</p>
+  </footer>
 </body>
 </html>
