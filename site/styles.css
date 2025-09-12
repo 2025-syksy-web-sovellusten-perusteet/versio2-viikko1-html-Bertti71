@@ -6,22 +6,24 @@ body, ul {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #111;           
+    color: #fff;                      
 }
 
 header {
-    background-color: #0055a5;
-    color: white;
+    background-color: #ffae42;        
     padding: 20px 10px;
     text-align: center;
+    border-radius: 0 0 15px 15px;    
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #003d7a;
+    background-color: #222;           
+    border-radius: 10px;              
+    padding: 5px 0;
 }
 
 nav ul li {
@@ -29,31 +31,38 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fcdc00;                  
     text-decoration: none;
     padding: 10px 12px;
     display: block;
+    border-radius: 8px;              
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #0073e6;
-    border-radius: 4px;
+    background-color: #fff;          
+    color: #111;                    
 }
 
 main {
     padding: 20px;
     max-width: 960px;
     margin: auto;
+    background-color: #222;          
+    border-radius: 15px;
+    box-shadow: 0 0 10px #fcdc00aa; 
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #fcdc00;      
 }
 
 th, td {
@@ -64,20 +73,25 @@ th, td {
 caption {
     font-weight: bold;
     margin-bottom: 10px;
+    color: #fcdc00;                  
 }
 
+
 footer {
-    background-color: #0055a5;
-    color: white;
+    background-color: #fcdc00;     
+    color: #111;                   
     text-align: center;
     padding: 10px;
     margin-top: 40px;
+    border-radius: 15px 15px 0 0;   
 }
+
 
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
         align-items: center;
+        border-radius: 15px;
     }
     nav ul li {
         margin: 5px 0;
